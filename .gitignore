@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+.idea
+.agents
+.codex
+.gstack
+tsconfig.tsbuildinfo
+.DS_Store

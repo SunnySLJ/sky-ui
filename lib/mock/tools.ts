@@ -1,0 +1,151 @@
+// AI工具页面 mock 数据
+
+export const toolsBanner = {
+  title: 'AI角色替换/动作迁移',
+  desc: '人物角色/视频动作一键替换',
+  image: '/images/banner-1.png',
+};
+
+export const toolsModels = [
+  { name: 'Nano Banana', desc: '专业级图片生成', icon: '/images/menu-banana.png', featured: true },
+  { name: '索拉', desc: '文生视频模型', icon: '/images/menu-sora.png', featured: true },
+  { name: '马克', desc: '视频生成模型', icon: '/images/menu-grok.png', featured: true },
+  { name: '威尔', desc: '视频生成模型', icon: '/images/menu-veo.png', featured: false },
+];
+
+export const toolsCategories = [
+  '全部', '电商', '大健康', '工厂', '励志演讲', '探店', '宠物',
+  '美发', '短剧带货', '变装', '写实', '动漫', '创意', '跨境',
+  '设计', '家具设计', 'LOGO', '服饰', '美食', '搞笑', '修图改图', 'AI数字人',
+];
+
+export const toolsGalleryItems = [
+  {
+    cover: '/images/case-1.png',
+    title: '电影级运镜 太空宇航员',
+    author: '马克视频',
+    likes: 260,
+    category: '写实',
+    height: 220,
+  },
+  {
+    cover: '/images/case-2.png',
+    title: '裸眼3D LED广告牌',
+    author: '香蕉生图',
+    likes: 133,
+    category: '创意',
+    height: 180,
+  },
+  {
+    cover: '/images/case-3.png',
+    title: '绝美风景',
+    author: '威尔视频',
+    likes: 187,
+    category: '写实',
+    height: 200,
+  },
+  {
+    cover: '/images/case-4.png',
+    title: '复古壁挂',
+    author: '香蕉生图',
+    likes: 326,
+    category: '设计',
+    height: 190,
+  },
+  {
+    cover: '/images/banana-case-1.png',
+    title: '居家口播',
+    author: '香蕉生图',
+    likes: 208,
+    category: '电商',
+    height: 210,
+  },
+  {
+    cover: '/images/banana-case-2.png',
+    title: '电影感射箭瞬间命中靶心',
+    author: '方舟视频',
+    likes: 431,
+    category: '写实',
+    height: 180,
+  },
+  {
+    cover: '/images/banana-case-3.png',
+    title: '女子与星空',
+    author: '马克视频',
+    likes: 215,
+    category: '创意',
+    height: 200,
+  },
+  {
+    cover: '/images/banana-case-4.png',
+    title: '美女打开一本书，书中的信件开始缓缓从书页中飘浮而出',
+    author: '马克视频',
+    likes: 279,
+    category: '创意',
+    height: 190,
+  },
+  {
+    cover: '/images/case-1.png',
+    title: '时光旅行分屏',
+    author: '香蕉生图',
+    likes: 175,
+    category: '创意',
+    height: 180,
+  },
+  {
+    cover: '/images/case-2.png',
+    title: '旅程中破碎提示',
+    author: '香蕉生图',
+    likes: 409,
+    category: '动漫',
+    height: 200,
+  },
+  {
+    cover: '/images/case-3.png',
+    title: '日常快照风格',
+    author: '香蕉生图',
+    likes: 326,
+    category: '写实',
+    height: 190,
+  },
+  {
+    cover: '/images/case-4.png',
+    title: '随和利落',
+    author: '香蕉生图',
+    likes: 249,
+    category: '设计',
+    height: 210,
+  },
+  {
+    cover: '/images/banana-case-1.png',
+    title: '灯具',
+    author: '索拉视频',
+    likes: 164,
+    category: '设计',
+    height: 180,
+  },
+  {
+    cover: '/images/banana-case-2.png',
+    title: '奔跑的象群',
+    author: '索拉视频',
+    likes: 213,
+    category: '写实',
+    height: 200,
+  },
+  {
+    cover: '/images/banana-case-3.png',
+    title: '清新柑橘映衬下的高级感皮包摄影',
+    author: '香蕉生图',
+    likes: 360,
+    category: '电商',
+    height: 190,
+  },
+  {
+    cover: '/images/banana-case-4.png',
+    title: '温柔阳光',
+    author: '索拉视频',
+    likes: 127,
+    category: '写实',
+    height: 180,
+  },
+];

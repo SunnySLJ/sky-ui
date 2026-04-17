@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>编导 - Timarsky星空</title>
+  <link rel="icon" href="../assets/images/favicon.png">
+  <link rel="stylesheet" href="../assets/css/custom.css">
+</head>
+<body>
+  <div class="app-layout">
+    <aside class="sidebar">
+      <div class="sidebar-logo"><img src="../assets/images/cdn-1.png" alt="logo"></div>
+      <nav class="sidebar-nav">
+        <a href="index.html" class="nav-item">
+          <div class="nav-icon-wrap">
+            <img src="../assets/images/icon-灵感-inactive.svg" class="icon-inactive" alt="灵感">
+            <img src="../assets/images/icon-灵感-active.svg" class="icon-active" alt="灵感">
+          </div>
+          <span class="nav-label">灵感</span>
+        </a>
+        <a href="biandao.html" class="nav-item active">
+          <div class="nav-icon-wrap">
+            <img src="../assets/images/icon-编导-inactive.svg" class="icon-inactive" alt="编导">
+            <img src="../assets/images/icon-编导-active.svg" class="icon-active" alt="编导">
+          </div>
+          <span class="nav-label">编导</span>
+        </a>
+        <a href="banana.html" class="nav-item">
+          <div class="nav-icon-wrap">
+            <img src="../assets/images/icon-做图-inactive.svg" class="icon-inactive" alt="做图">
+            <img src="../assets/images/icon-做图-active.svg" class="icon-active" alt="做图">
+          </div>
+          <span class="nav-label">做图</span>
+        </a>
+        <a href="audio.html" class="nav-item">
+          <div class="nav-icon-wrap">
+            <img src="../assets/images/icon-音频-inactive.svg" class="icon-inactive" alt="音频">
+            <img src="../assets/images/icon-音频-active.svg" class="icon-active" alt="音频">
+          </div>
+          <span class="nav-label">音频</span>
+        </a>
+        <a href="video.html" class="nav-item">
+          <div class="nav-icon-wrap">
+            <img src="../assets/images/icon-视频-inactive.svg" class="icon-inactive" alt="视频">
+            <img src="../assets/images/icon-视频-active.svg" class="icon-active" alt="视频">
+          </div>
+          <span class="nav-label">视频</span>
+        </a>
+        <a href="asset.html" class="nav-item">
+          <div class="nav-icon-wrap">
+            <img src="../assets/images/icon-资产-inactive.svg" class="icon-inactive" alt="资产">
+            <img src="../assets/images/icon-资产-active.svg" class="icon-active" alt="资产">
+          </div>
+          <span class="nav-label">资产</span>
+        </a>
+      </nav>
+      <a href="ai-tools.html" class="sidebar-ai-btn" title="AI工具">
+        <div class="nav-icon-wrap">
+          <svg width="24" height="24" viewBox="0 0 20 20" fill="currentColor"><path d="M10 2l2.5 5 5.5.8-4 3.9.9 5.3L10 14.5 5.1 17l.9-5.3-4-3.9 5.5-.8L10 2z"/></svg>
+        </div>
+        <span class="nav-label">AI工具</span>
+      </a>
+      <div class="sidebar-bottom">
+        <div class="sidebar-icon-btn" title="通知" id="noticeBtn">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10 2a5 5 0 015 5c0 3.5-1 5-2 6v1a1 1 0 01-1 1H8a1 1 0 01-1-1v-1c-1-1-2-2.5-2-6a5 5 0 015-5z"/><circle cx="10" cy="17" r="1" fill="currentColor"/></svg>
+        </div>
+        <div class="sidebar-credits" id="creditsBtn">
+          <div class="sidebar-credits-row">
+            <img src="../assets/images/icon-credits.svg" alt="credits">
+            <span class="credits-num" id="creditsNum">0</span>
+          </div>
+          <span class="credits-label">获取点数</span>
+        </div>
+        <div class="sidebar-avatar" id="avatarBtn">
+          <img src="../assets/images/avatar.png" alt="avatar" id="avatarImg">
+        </div>
+      </div>
+    </aside>
+    <main class="main-content">
+      <div class="main-scroll">
+        <section class="director-page">
+          <div class="director-shell">
+            <div class="director-topbar">
+              <div class="director-title-group">
+                <h1 class="director-title">文案二创</h1>
+                <p class="director-subtitle">选取对标视频，分析账号结构并快速产出可投放的新文案。</p>
+              </div>
+              <button class="director-primary-btn">去创建立项</button>
+            </div>
+
+            <div class="director-tabs">
+              <button class="director-tab active">文案二创</button>
+              <button class="director-tab">立项管理</button>
+              <button class="director-tab">行业选题</button>
+              <button class="director-tab">文案自创</button>
+              <button class="director-tab">我的文案库</button>
+            </div>
+
+            <div class="director-grid">
+              <section class="director-panel director-panel-accent">
+                <div class="director-panel-header">
+                  <div>
+                    <div class="director-eyebrow">选取对标视频</div>
+                    <h2>文案二次创作</h2>
+                  </div>
+                  <span class="director-badge">推荐</span>
+                </div>
+                <div class="director-input-card">
+                  <label class="director-label">输入视频链接或账号主页</label>
+                  <div class="director-inline-field">
+                    <input class="director-input" type="text" placeholder="https://www.douyin.com/..." />
+                    <button class="director-chip-btn">分析账号</button>
+                  </div>
+                </div>
+                <div class="director-input-card">
+                  <label class="director-label">目标方向</label>
+                  <div class="director-chip-row">
+                    <button class="director-filter active">美妆带货</button>
+                    <button class="director-filter">大健康</button>
+                    <button class="director-filter">探店口播</button>
+                    <button class="director-filter">短剧带货</button>
+                  </div>
+                </div>
+                <div class="director-input-card">
+                  <label class="director-label">创作要求</label>
+                  <textarea class="director-textarea" placeholder="保留人设，强化利益点，前 3 秒更抓人，适合口播转化。"></textarea>
+                </div>
+                <div class="director-action-row">
+                  <button class="director-secondary-btn">获取文案</button>
+                  <button class="director-primary-btn">开始二创</button>
+                </div>
+              </section>
+
+              <section class="director-panel">
+                <div class="director-panel-header">
+                  <div>
+                    <div class="director-eyebrow">人设立项</div>
+                    <h2>美妆带货 - 小张老师</h2>
+                  </div>
+                  <a class="director-link" href="#">去创建 &gt;</a>
+                </div>
+                <div class="director-stat-list">
+                  <div class="director-stat-card">
+                    <span class="director-stat-label">核心卖点</span>
+                    <strong>成分党信任感 + 场景口播</strong>
+                  </div>
+                  <div class="director-stat-card">
+                    <span class="director-stat-label">当前阶段</span>
+                    <strong>对标分析中</strong>
+                  </div>
+                  <div class="director-stat-card">
+                    <span class="director-stat-label">本周目标</span>
+                    <strong>3 条转化稿 + 1 条长口播</strong>
+                  </div>
+                </div>
+                <div class="director-note-card">
+                  <div class="director-note-title">还没有立项？</div>
+                  <p>先固定人设、行业和成交场景，再生成文案，后续做图和视频会更稳定。</p>
+                </div>
+              </section>
+            </div>
+
+            <div class="director-library">
+              <div class="director-panel-header">
+                <div>
+                  <div class="director-eyebrow">我的文案库</div>
+                  <h2>最近生成</h2>
+                </div>
+                <button class="director-chip-btn">全部查看</button>
+              </div>
+              <div class="director-library-grid">
+                <article class="director-library-card">
+                  <span class="director-library-tag">账号拆解</span>
+                  <h3>防晒喷雾 15 秒短转化稿</h3>
+                  <p>开头直接给出“补喷不花妆”的冲突，紧接产品利益点和真实使用场景。</p>
+                </article>
+                <article class="director-library-card">
+                  <span class="director-library-tag">口播脚本</span>
+                  <h3>面膜成交口播 45 秒</h3>
+                  <p>适配直播切片，突出即时反馈、肤感和夜间急救场景。</p>
+                </article>
+                <article class="director-library-card">
+                  <span class="director-library-tag">行业选题</span>
+                  <h3>换季敏感肌爆点选题</h3>
+                  <p>围绕换季泛红、妆前搓泥、屏障修护三个真实问题切入。</p>
+                </article>
+              </div>
+            </div>
+        </section>
+        <div class="footer">
+          <span>ICP备案号:</span><a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">辽ICP备2024044460号-8</a>
+          <span style="margin:0 8px;">|</span>
+          <span>版权所有 Copyright @ 2024-2026 星巢引擎科技版权所有. All Rights Reserved.</span>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="../assets/js/shared.js"></script>
+  <script src="../assets/js/app.js"></script>
+  <script>
+    document.querySelectorAll('.director-tab').forEach(function(tab) {
+      tab.addEventListener('click', function() {
+        document.querySelectorAll('.director-tab').forEach(function(item) {
+          item.classList.remove('active');
+        });
+        tab.classList.add('active');
+      });
+    });
+    document.querySelectorAll('.director-filter').forEach(function(tab) {
+      tab.addEventListener('click', function() {
+        document.querySelectorAll('.director-filter').forEach(function(item) {
+          item.classList.remove('active');
+        });
+        tab.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>

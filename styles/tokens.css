@@ -1,0 +1,5 @@
+:root {
+  --app-surface: rgba(20, 24, 31, 0.9);
+  --app-border: rgba(255, 255, 255, 0.08);
+  --app-radius: 20px;
+}

@@ -1,0 +1,15 @@
+.main-content {
+  background: radial-gradient(circle at top right, rgba(236, 72, 153, 0.08), transparent 24%), #080b0f;
+}
+
+.filter-section,
+.page-section,
+.content-section,
+.settings-card,
+.notice-list,
+.notice-detail,
+.gen-sidebar,
+.gen-main,
+.gen-model-bar {
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.24);
+}

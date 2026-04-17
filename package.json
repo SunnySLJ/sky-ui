@@ -1,0 +1,26 @@
+{
+  "name": "sky-ui-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 8888",
+    "build": "next build",
+    "start": "next start --port 8888",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "16.2.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.14.1",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "eslint": "9.23.0",
+    "eslint-config-next": "16.2.4",
+    "typescript": "5.8.2"
+  },
+  "packageManager": "pnpm@10.26.2"
+}
